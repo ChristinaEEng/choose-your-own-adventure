@@ -2,10 +2,13 @@ body {
   font-family: Georgia, "Times New Roman", serif;
   background-image: url("https://i.ibb.co/Kyx6DWj/paper-texture-yellow.jpg");
   max-width: 48rem;
-  padding: 1.5em;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 2em;
+  padding-right: 1em;
+  margin-left: 15em;
+  margin-right: 20em;
 }
+
+title
 
 .visuallyhidden {
   border: 0;
@@ -19,8 +22,7 @@ body {
   white-space: nowrap;
 }
 
-
-nav a {
+.primary a {
   /* display: inline-block; */
   display: block;
   color: #000;
@@ -53,8 +55,24 @@ nav ul {
     display: inline;
   }
 
-  nav a {
+  nav a,
+  .primary a {
     display: inline-block;
   }
 
+.secondary a {
+  display: block;
+  color: #f00;
+  text-decoration: none;
+  padding: .5em;
+
+}
+
+.paragraph {
+  padding-right: 20em;
+  padding-top:2em;
+}
+
+.fixed-test {
+  position: fixed;
 }
